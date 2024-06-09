@@ -1,0 +1,23 @@
+					  VULNERABILITY IN FORGOT PASSWORD SYSTEM
+
+STEP TO REPRODUCE
+
+1.Open https://sandeepsappal.in/ and use forgot password funtionality.
+
+2. Enter victim's Email ID and intercept the request using burpsuit (Proxy intercept).
+
+3.You will notice that while interception you will get the link to change password. copy the link and paste in another browser.
+
+4. Finally change the password.
+
+This is a critical BUG which leads to account takeover and hacker can exploit it by downloading precious content only by getting email of your students. 			
+
+I used my Friend (Naveen Mittal with his consent) account to exploit the vulbnerability.
+
+now I will open chrome to change the password
+Password change successfull .
+
+now I will login in victim account
+
+THANKYOU :)
+HAPPY HACKING :)
